@@ -17,7 +17,7 @@ DEBUG = True  # Change to False once you are done with runserver testing.
 
 # Uncomment and set to the domain names this site is intended to serve.
 # You must do this once you set DEBUG to False.
-#ALLOWED_HOSTS = ['oj.vnoi.info']
+#ALLOWED_HOSTS = ['localhost']
 
 # Optional apps that DMOJ can make use of.
 INSTALLED_APPS += (
@@ -110,7 +110,7 @@ ADMINS = (
 )
 
 # The sender for the aforementioned emails.
-SERVER_EMAIL = 'VNOJ: VNOI Online Judge <vnoj@vnoi.info>'
+SERVER_EMAIL = 'onlinejudge000@gmail.com'
 
 
 ################################################
@@ -136,11 +136,11 @@ STATIC_ROOT = '/tmp/static'
 ############################################
 
 ## DMOJ site display settings.
-SITE_NAME = 'VNOJ'
-SITE_FULL_URL = 'https://oj.vnoi.info'
-SITE_LONG_NAME = 'VNOJ: VNOI Online Judge'
+SITE_NAME = 'CKTOJ'
+SITE_FULL_URL = 'http:/localhost'
+SITE_LONG_NAME = 'CKTOJ: THPT Chuyen Nguyen Tat Thanh Kon Tum Online Judge'
 SITE_ADMIN_EMAIL = 'admin@example.com'
-TERMS_OF_SERVICE_URL = '//oj.vnoi.info/tos/'  # Use a flatpage.
+TERMS_OF_SERVICE_URL = '//localhost/tos/'  # Use a flatpage.
 
 ## Media files settings.
 # This is the directory where all the media files are stored.
