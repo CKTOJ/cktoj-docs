@@ -49,7 +49,7 @@ runtimes we run on [dmoj.ca](https://dmoj.ca). Tier 2 contains some in-between
 mix; read the `Dockerfile` for each tier for details. These images are rebuilt
 and tested every week to contain the latest runtime versions.
 
-?> VNOJ uses a custom tier, `tiervnoj`, which contains all the runtimes in Tier 1
+?> CKTOJ uses a custom tier, `tiervnoj`, which contains all the runtimes in Tier 1
 and some additional ones. You can find the list of supported runtimes [here](https://oj.vnoi.info/runtimes).
 The Docker image is maintained at [vnoj/judge-tiervnoj](https://hub.docker.com/r/vnoj/judge-tiervnoj).
 
@@ -101,8 +101,3 @@ If you want to run multiple judges, you need to changes:
 - judge.yml file (`/problems/judge.yml`): each judge need different config file
 - `-a 12345`: change to others ports
 
-### Through PyPI
-
-!> Not available for VNOJ
-
-We are not maintaining our judge on PyPI, you should use the docker setup above.
