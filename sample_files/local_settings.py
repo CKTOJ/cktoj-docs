@@ -137,7 +137,7 @@ STATIC_ROOT = '/tmp/static'
 
 ## DMOJ site display settings.
 SITE_NAME = 'CKTOJ'
-SITE_FULL_URL = 'http:/localhost'
+SITE_FULL_URL = 'http://localhost'
 SITE_LONG_NAME = 'CKTOJ: THPT Chuyen Nguyen Tat Thanh Kon Tum Online Judge'
 SITE_ADMIN_EMAIL = 'admin@example.com'
 TERMS_OF_SERVICE_URL = '//localhost/tos/'  # Use a flatpage.
