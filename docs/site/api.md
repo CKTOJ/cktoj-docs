@@ -1,6 +1,6 @@
 # API
 
-!> Untested on VNOJ
+!> Untested on CKTOJ
 
 The DMOJ supports a simple JSON API for accessing most data used by the backend. Access to the API makes use of API tokens.
 
