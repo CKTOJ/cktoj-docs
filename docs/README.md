@@ -1,5 +1,4 @@
-# VNOJ: Modern Online Judge
+# CKTOJ: THPT Chuyen Nguyen Tat Thanh Online Judge
 
-This documentation aims to guide you through installing your own VNOJ instance.
+This documentation aims to guide you through installing your own CKTOJ instance.
 
-Feel free to reach out to us on [Discord](https://discord.gg/TDyYVyd) if you have any questions.
